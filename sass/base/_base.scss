@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  box-sizing: inherit;
+}
+
+html {
+  //Default font-size browser is 16px; 1rem = 10px so we want a default font-size of 62.5% of the browser font-size
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $color-primary;
+  box-sizing: border-box;
+}

@@ -1,0 +1,56 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "pages/home";
+
+@import "layout/header";
+/*
+COLORS 
+Light-beige: #f4f2e7;
+Medium-red: #a83027;
+Dark-grey: #12191f;
+Light-grey: #6a6a68;
+*/
+
+.section-about {
+  height: 120vh;
+  background-color: $color-secondary;
+  -webkit-clip-path: polygon(0 64%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 64%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.section-find-us {
+  height: 60vh;
+}
+
+.section-news {
+  height: 100vh;
+}
+
+.section-stories {
+  height: 100vh;
+  background-color: $color-secondary;
+  -webkit-clip-path: polygon(13% 7%, 77% 0, 0 97%, 0 24%);
+  clip-path: polygon(13% 7%, 77% 0, 0 97%, 0 24%);
+}
+/* Footer */
+.footer {
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem; 
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+}
