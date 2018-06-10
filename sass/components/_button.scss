@@ -1,0 +1,41 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 1.5rem 4rem;
+      display: inline-block;
+      position: relative;
+      font-size: $btn-font-size;
+      font-weight: 300;
+      border: none;
+      cursor: pointer;
+      -webkit-clip-path: polygon(2% 7%, 100% 0, 91% 94%, 11% 100%);
+      clip-path: polygon(2% 7%, 100% 0, 91% 94%, 11% 100%);
+  }
+  
+  &:active,
+  &:focus {
+      outline: none;
+  }
+
+  &--red {
+    background-color: $color-secondary;
+    color: $color-white;
+
+    &::after {
+        background-color: $color-secondary;
+    }
+}
+  
+  &--white {
+      background-color: $color-white;
+      color: $color-grey-dark;
+
+      &::after {
+          background-color: $color-white;
+      }
+  }
+
+}
