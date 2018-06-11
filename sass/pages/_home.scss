@@ -1,0 +1,18 @@
+.section-find-us {
+
+  background: $color-secondary;
+  height: 60vh;
+
+  &__text-box {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+.section-news {
+  text-align: center;
+}

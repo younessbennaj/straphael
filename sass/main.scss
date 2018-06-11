@@ -13,6 +13,7 @@
 @import "layout/grid";
 
 @import "components/button";
+@import "components/composition";
 /*
 COLORS 
 Light-beige: #f4f2e7;
@@ -22,25 +23,28 @@ Light-grey: #6a6a68;
 */
 
 .section-about {
-  height: 120vh;
+  overflow: visible;
+  padding-top: 25rem;
+  padding-bottom: 5rem;
   background-color: $color-secondary;
-  -webkit-clip-path: polygon(0 64%, 100% 0, 100% 100%, 0% 100%);
-  clip-path: polygon(0 64%, 100% 0, 100% 100%, 0% 100%);
+  .paragraph {
+    color: $color-white;
+    text-align: left;
+  }
+  .section-about__photo {
+    text-align: center;
+  }
 }
 
-.section-find-us {
-  height: 60vh;
-}
 
 .section-news {
   height: 100vh;
 }
 
 .section-stories {
+
   height: 100vh;
   background-color: $color-secondary;
-  -webkit-clip-path: polygon(13% 7%, 77% 0, 0 97%, 0 24%);
-  clip-path: polygon(13% 7%, 77% 0, 0 97%, 0 24%);
 }
 /* Footer */
 .footer {

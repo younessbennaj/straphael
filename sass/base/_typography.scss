@@ -14,13 +14,13 @@ body {
     display: block;
     font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 2rem;
+    // letter-spacing: 2rem;
   }
 
   &--sub {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 400;
-    letter-spacing: 1rem;
+    // letter-spacing: 1rem;
   }
 
 }
@@ -32,14 +32,26 @@ body {
   &--main {
     display: block;
     font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 2rem;
+    font-weight: 600;
   }
 
   &--sub {
-    font-size: 2rem;
-    font-weight: 400;
-    letter-spacing: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
   }
 
 }
