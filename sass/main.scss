@@ -14,6 +14,8 @@
 
 @import "components/button";
 @import "components/composition";
+@import "components/blog-post";
+
 /*
 COLORS 
 Light-beige: #f4f2e7;
@@ -38,12 +40,9 @@ Light-grey: #6a6a68;
 
 
 .section-news {
-  height: 100vh;
 }
 
 .section-stories {
-
-  height: 100vh;
   background-color: $color-secondary;
 }
 /* Footer */

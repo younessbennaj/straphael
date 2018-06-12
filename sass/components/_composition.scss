@@ -8,9 +8,9 @@
     z-index: 10;
 
     &--p1 {
-      transform: rotate(-20deg);
-      left: 40px;
-      top: 10px;
+      transform: rotate(-30deg);
+      left: 70px;
+      top: 35px;
     }
 
     &--p2 {
@@ -18,9 +18,9 @@
     }
 
     &--p3 {
-      transform: rotate(20deg);
-      right: 40px;
-      top: 10px;
+      transform: rotate(30deg);
+      right: 70px;
+      top: 35px;
     }
 
     &:hover {

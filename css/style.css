@@ -22,7 +22,8 @@ body {
 
 .heading-primary {
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif; }
   .heading-primary--main {
     display: block;
     font-size: 6rem;
@@ -32,8 +33,9 @@ body {
     font-weight: 400; }
 
 .heading-secondary {
-  color: #12191f;
-  text-transform: uppercase; }
+  color: #6a6a68;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif; }
   .heading-secondary--main {
     display: block;
     font-size: 6rem;
@@ -43,7 +45,8 @@ body {
     font-weight: 600; }
 
 .heading-tertiary {
-  font-size: 1.6rem; }
+  color: #fff;
+  font-size: 3rem; }
 
 .paragraph {
   font-size: 1.4rem;
@@ -137,6 +140,7 @@ body {
   display: inline-block;
   position: relative;
   font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
   border: none;
   cursor: pointer;
@@ -176,15 +180,15 @@ body {
     position: relative;
     z-index: 10; }
     .composition__photo--p1 {
-      transform: rotate(-20deg);
-      left: 40px;
-      top: 10px; }
+      transform: rotate(-30deg);
+      left: 70px;
+      top: 35px; }
     .composition__photo--p2 {
       z-index: 20; }
     .composition__photo--p3 {
-      transform: rotate(20deg);
-      right: 40px;
-      top: 10px; }
+      transform: rotate(30deg);
+      right: 70px;
+      top: 35px; }
     .composition__photo:hover {
       transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
@@ -193,6 +197,14 @@ body {
       transform: rotate(-20deg) scale(1.05) translateY(-0.5rem); }
     .composition__photo--p3:hover {
       transform: rotate(20deg) scale(1.05) translateY(-0.5rem); }
+
+.blog-post {
+  background-color: #12191f;
+  text-align: left;
+  color: #fff;
+  -webkit-clip-path: polygon(10% 7%, 100% 0%, 100% 92%, 0% 100%);
+  clip-path: polygon(10% 7%, 100% 0%, 100% 92%, 0% 100%);
+  padding: 80px 60px 60px 100px; }
 
 /*
 COLORS 
@@ -212,11 +224,7 @@ Light-grey: #6a6a68;
   .section-about .section-about__photo {
     text-align: center; }
 
-.section-news {
-  height: 100vh; }
-
 .section-stories {
-  height: 100vh;
   background-color: #a83027; }
 
 /* Footer */

@@ -1,0 +1,8 @@
+.blog-post {
+  background-color: #12191f;
+  text-align: left;
+  color: $color-white;
+  -webkit-clip-path: polygon(10% 7%, 100% 0%, 100% 92%, 0% 100%);
+  clip-path: polygon(10% 7%, 100% 0%, 100% 92%, 0% 100%);
+  padding: 80px 60px 60px 100px;
+}

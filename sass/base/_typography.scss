@@ -9,6 +9,7 @@ body {
 .heading-primary {
   color: $color-white;
   text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
 
   &--main {
     display: block;
@@ -26,8 +27,9 @@ body {
 }
 
 .heading-secondary {
-  color: $color-grey-dark;
+  color: $color-grey-light;
   text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
 
   &--main {
     display: block;
@@ -43,7 +45,8 @@ body {
 }
 
 .heading-tertiary {
-  font-size: 1.6rem;
+  color: $color-white;
+  font-size: 3rem;
 }
 
 .paragraph {
