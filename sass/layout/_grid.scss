@@ -20,7 +20,7 @@
     float: left;
 
     //Le dernier élément row ne doit pas avoir de margin-right 
-    &:not(:last-child) { 
+    &:not(:last-child) {
       margin-right:$gutter-horizontal;
     }
 
@@ -28,6 +28,11 @@
 
   .col-1-of-2 {
     width: calc((100% - #{$gutter-horizontal}) / 2);
+  }
+
+  .col-1-of-2-offset {
+    min-width: calc((100% - #{$gutter-horizontal}) / 2);
+    max-height: 1px;
   }
 
   .col-1-of-3 {
